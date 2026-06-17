@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #ccabab;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    margin-left: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+#add {
+    background-color: green;
+    color: white;
+}
+
+li {
+    list-style: none;
+    background: white;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    border-radius: 5px;
+}
+
+li span {
+    flex: 1;
+}
+
+li button {
+    margin-left: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
